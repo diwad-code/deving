@@ -6,7 +6,7 @@ Ten dokument ma pozwolić kolejnej osobie lub kolejnemu agentowi wejść do prac
 
 ## Aktualny stan
 
-Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej dokumentacji. Rozpoczęto budowę kompletnej warstwy dokumentacyjnej.
+Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej dokumentacji. Główna warstwa dokumentacyjna została już zbudowana i zsynchronizowana na poziomie podstawowym.
 
 ## Co już powstało
 
@@ -14,33 +14,49 @@ Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej do
 - `/docs/project/source-of-truth.md`
 - `/docs/project/project-status.md`
 - `/docs/project/agent-handoff.md`
+- `/docs/guides/getting-started.md`
+- `/docs/guides/choose-your-path.md`
+- `/docs/guides/customization-guide.md`
+- `/docs/guides/documentation-workflow.md`
+- `/docs/guides/ai-agent-guide.md`
+- `/docs/templates/template-philosophy.md`
+- `/docs/templates/content-catalog.md`
+- rozbudowany `/README.md`
 
 ## Co to daje
 
 - jest już ustalona architektura dokumentacji,
 - wiadomo, które pliki są źródłami prawdy,
 - istnieje centralny status projektu,
+- istnieje bogaty punkt wejściowy w README,
+- są przygotowane ścieżki użytkownika i instrukcje dostosowania,
 - jest punkt startowy do dalszej, uporządkowanej rozbudowy.
 
 ## Najbliższy następny krok
 
-Rozbudować `/README.md` do wersji bogatej i potraktować go jako główny portal wejściowy do repo.
+Wykonać końcowy przegląd spójności między README, przewodnikami, statusem projektu i handoffem oraz przygotować kolejny mały kierunek rozbudowy.
 
 ## Po tym kroku
 
-Następnie utworzyć przewodniki w `docs/guides/`, a później katalog `docs/templates/` z filozofią i katalogiem treści szablonowych.
+Po tym kroku można przejść do jednego z kolejnych małych etapów:
+
+1. dopracowanie jeszcze bogatszych szablonów sekcji README,
+2. przygotowanie wariantów pod konkretne stacki,
+3. rozwinięcie materiałów pod „stronę projektu” lub landing dokumentacyjny.
 
 ## Czego pilnować
 
 - README ma być zgodne z realnym stanem repo,
 - nie pisać tak, jakby istniał kod produktu, skoro repo jest obecnie dokumentacyjnym szkieletem,
 - po każdej zmianie aktualizować ten plik oraz `project-status.md`,
-- linkować tylko do dokumentów, które naprawdę już istnieją.
+- linkować tylko do dokumentów, które naprawdę już istnieją,
+- nie rozjechać obecnej logiki źródeł prawdy przy kolejnych rozszerzeniach.
 
 ## Niepewności
 
 - brak decyzji, czy kolejne etapy mają wejść już w warianty stackowe,
-- brak decyzji o docelowym języku pełnej dokumentacji.
+- brak decyzji o docelowym języku pełnej dokumentacji,
+- brak decyzji, czy następny etap ma wzmacniać README, czy budować już osobne rozszerzenia.
 
 ## Minimalny pakiet plików do przeczytania na wejściu
 
@@ -49,6 +65,8 @@ Następnie utworzyć przewodniki w `docs/guides/`, a później katalog `docs/tem
 3. `/docs/project/project-status.md`
 4. `/docs/project/documentation-map.md`
 5. `/docs/project/agent-handoff.md`
+6. `/docs/guides/choose-your-path.md`
+7. `/docs/guides/customization-guide.md`
 
 ## Jeśli kontynuujesz pracę
 
@@ -56,4 +74,5 @@ Następnie utworzyć przewodniki w `docs/guides/`, a później katalog `docs/tem
 2. zaktualizuj `README.md`, jeśli zmienia się narracja wejściowa,
 3. zaktualizuj `project-status.md`,
 4. zaktualizuj ten handoff,
-5. dopiero potem przejdź do następnego kroku.
+5. sprawdź zgodność linków i mapy dokumentacji,
+6. dopiero potem przejdź do następnego kroku.
