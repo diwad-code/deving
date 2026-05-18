@@ -117,6 +117,7 @@ Każdy wariant powinien finalnie dostarczać:
 - listę plików obowiązkowych,
 - listę plików opcjonalnych,
 - listę pierwszych rzeczy do edycji,
+- proponowany układ sekcji README,
 - strukturę README,
 - guidance deploymentu,
 - guidance pracy z AI,

@@ -61,6 +61,19 @@ W tym wariancie najwyższy priorytet mają:
 - zasady release’ów,
 - przewodnik AI dla feature development.
 
+## Proponowany układ README (wersja bogata)
+
+1. nazwa produktu i krótki opis wartości,
+2. jaki problem rozwiązuje i dla kogo,
+3. zakres MVP,
+4. szybki start lokalny,
+5. env i konfiguracja,
+6. architektura wysokiego poziomu,
+7. status funkcji albo link do `feature-status.md`,
+8. deployment i release flow,
+9. aktualny stan projektu albo link do `project-status.md`,
+10. linki do dokumentów pomocniczych: MVP scope, env, decyzje, AI workflow.
+
 ## Dokumenty pomocnicze, które warto przewidzieć
 
 - backlog / roadmap,

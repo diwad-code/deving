@@ -23,10 +23,11 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 - dodano przegląd wariantów celu projektu,
 - dodano cztery szczegółowe warianty: strona firmowa, web game, landing / portfolio / strona osobista, web app / SaaS MVP,
 - zsynchronizowano README i przewodniki z nową warstwą wariantów celu,
-- doprecyzowano w wariantach celu: quick start, pierwsze pliki do edycji oraz prostsze mapy startowe.
+- doprecyzowano w wariantach celu: quick start, pierwsze pliki do edycji oraz prostsze mapy startowe,
+- dopisano do wariantów celu mocniejsze, gotowe układy sekcji README.
 
 ### W toku
-- końcowe domknięcie etapu wariantów celu i przygotowanie gruntu pod dalszą rozbudowę stackową albo sekcyjną.
+- końcowe domknięcie etapu wariantów celu i przygotowanie gruntu pod dalszą rozbudowę stackową albo dokumentów roboczych.
 
 ### Jeszcze niegotowe
 - ewentualne dalsze warianty tematyczne lub stackowe dopięte pod każdy wariant celu,
@@ -37,7 +38,7 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 
 1. zdecydować, czy następny mały etap przechodzi już do warstwy stackowej, czy jeszcze rozwija szablony README pod obecne warianty,
 2. jeśli wchodzimy w stacki, przygotować osobny plan wariantów technologicznych pod wybrane cele,
-3. jeśli zostajemy przy obecnej warstwie, rozpisać mocniejsze sekcje README dla każdego wariantu,
+3. jeśli zostajemy przy obecnej warstwie, rozpisać dla wariantów pierwsze dokumenty robocze wynikające z nowych układów README,
 4. utrzymać aktualność statusu i handoffu przy każdym kolejnym kroku.
 
 ## Decyzje podjęte
@@ -69,7 +70,7 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 
 - jak szeroki powinien być katalog szablonów bez wchodzenia jeszcze w stack-specyficzne szczegóły,
 - jak mocno rozdzielać instrukcje dla człowieka i dla AI, żeby nie dublować treści,
-- jak szczegółowe mają być gotowe sekcje README dla wariantów celu przed wejściem w konkretny stack.
+- jak daleko schodzić w gotowe dokumenty robocze dla wariantów celu przed wejściem w konkretny stack.
 
 ## Zależności
 

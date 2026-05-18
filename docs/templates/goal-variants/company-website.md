@@ -62,6 +62,18 @@ W tym wariancie najwyższy priorytet mają:
 - przykłady CTA,
 - przewodnik po wariantach sekcji.
 
+## Proponowany układ README (wersja bogata)
+
+1. nazwa projektu i jednozdaniowy opis,
+2. dla jakiej firmy, marki albo usługi powstaje strona,
+3. jakie sekcje obejmuje strona,
+4. co edytować najpierw,
+5. gdzie są teksty, assety i materiały biznesowe,
+6. jak uruchomić lokalny preview,
+7. jak przygotować publikację,
+8. aktualny stan projektu albo link do `project-status.md`,
+9. linki do dokumentów pomocniczych: sekcje strony, SEO, tone of voice, AI.
+
 ## Dokumenty pomocnicze, które warto przewidzieć
 
 - przewodnik tworzenia treści biznesowych,

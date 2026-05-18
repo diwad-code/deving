@@ -112,6 +112,7 @@ Każdy wariant opisuje:
 - jakie pliki i katalogi są potrzebne,
 - co edytować najpierw,
 - jakie sekcje README są obowiązkowe,
+- jak może wyglądać mocniejszy układ README,
 - jak planować deployment,
 - jak pracować z AI bez zgadywania.
 

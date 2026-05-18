@@ -66,6 +66,7 @@ Każdy wariant musi zawierać następujące sekcje.
 ### 6. Struktura README
 - sekcje obowiązkowe,
 - sekcje opcjonalne,
+- proponowaną kolejność sekcji,
 - sekcje specyficzne dla typu projektu,
 - sekcje, które można później skrócić.
 

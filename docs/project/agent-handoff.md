@@ -12,6 +12,8 @@ W kolejnym kroku repo dostało też pierwszą warstwę **wariantów budowanych w
 
 Następnie doprecyzowano te warianty o prostszy quick start, pierwsze pliki do edycji i jaśniejsze mapy startowe.
 
+Potem dopisano do każdego wariantu mocniejszy, gotowy układ sekcji README.
+
 ## Co już powstało
 
 - `/docs/project/documentation-map.md`
@@ -47,7 +49,7 @@ Następnie doprecyzowano te warianty o prostszy quick start, pierwsze pliki do e
 
 ## Najbliższy następny krok
 
-Wybrać kolejny mały kierunek rozbudowy: albo przygotowanie planu wariantów stackowych pod wybrane cele, albo rozpisanie mocniejszych sekcji README dla obecnych wariantów celu.
+Wybrać kolejny mały kierunek rozbudowy: albo przygotowanie planu wariantów stackowych pod wybrane cele, albo rozpisanie pierwszych dokumentów roboczych wynikających z nowych układów README.
 
 ## Po tym kroku
 
@@ -72,7 +74,7 @@ Po tym kroku można przejść do jednego z kolejnych małych etapów:
 - brak decyzji, czy kolejne etapy mają wejść już w warianty stackowe,
 - brak decyzji o docelowym języku pełnej dokumentacji,
 - brak decyzji, czy następny etap ma wzmacniać README, czy budować już osobne rozszerzenia,
-- brak decyzji, jak głęboko rozpisać gotowe sekcje README i guidance stackowy bez przeładowania całości.
+- brak decyzji, jak głęboko rozpisać dokumenty robocze i guidance stackowy bez przeładowania całości.
 
 ## Minimalny pakiet plików do przeczytania na wejściu
 

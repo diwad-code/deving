@@ -61,6 +61,18 @@ W tym wariancie najwyższy priorytet mają:
 - lista inspiracji,
 - sekcja o generowaniu assetów albo użyciu AI.
 
+## Proponowany układ README (wersja bogata)
+
+1. nazwa gry i krótki pitch,
+2. core loop i główny cel gracza,
+3. jak uruchomić projekt lokalnie,
+4. jak grać i jakie jest sterowanie,
+5. gdzie znajdują się logika gry i assety,
+6. jak śledzić status mechanik,
+7. jak przygotować build albo playtest,
+8. aktualny stan projektu albo link do `project-status.md`,
+9. linki do dokumentów pomocniczych: game loop, asset map, build plan, AI workflow.
+
 ## Dokumenty pomocnicze, które warto przewidzieć
 
 - przewodnik assetów,

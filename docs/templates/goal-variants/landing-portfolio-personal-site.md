@@ -60,6 +60,17 @@ W tym wariancie najwyższy priorytet mają:
 - guide do personalizacji tonu,
 - wskazówki dla AI przy redakcji treści.
 
+## Proponowany układ README (wersja bogata)
+
+1. nazwa strony i krótki opis,
+2. dla kogo jest ta strona,
+3. co edytować najpierw,
+4. gdzie zmienić bio, projekty i kontakt,
+5. jak uruchomić lokalnie,
+6. jak opublikować stronę,
+7. aktualny stan projektu albo link do `project-status.md`,
+8. opcjonalnie: live demo, projekty, FAQ, AI guide.
+
 ## Dokumenty pomocnicze, które warto przewidzieć
 
 - dokument sekcji strony,
