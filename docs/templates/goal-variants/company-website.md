@@ -36,6 +36,13 @@ W tym wariancie najwyższy priorytet mają:
 - prosty deployment,
 - spójność między contentem, README i dokumentacją statusową.
 
+## Quick start w 4 ruchach
+
+1. przeczytaj README i krótki opis sekcji strony,
+2. uzupełnij home, ofertę i kontakt,
+3. sprawdź gdzie trafiają zdjęcia, logo i pliki do pobrania,
+4. dopisz prostą checklistę publikacji albo preview.
+
 ## Obowiązkowe sekcje README
 
 - czym jest projekt,
@@ -118,6 +125,13 @@ W tym wariancie najwyższy priorytet mają:
 - `docs/project/documentation-map.md`
 - dokument opisujący sekcje strony
 - dokument publikacji albo minimum wyraźna sekcja deployu w README
+
+## Co edytować najpierw
+
+- `README.md` — krótki opis projektu i sposób uruchomienia,
+- dokument sekcji strony — żeby było jasne co trafia na home, ofertę i kontakt,
+- pliki treści w `content/home/`, `content/offer/` i `content/contact/`,
+- checklistę publikacji albo sekcję deployu.
 
 ## Pliki opcjonalne
 

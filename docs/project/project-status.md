@@ -17,15 +17,16 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 - dodano przewodniki użytkowe w `docs/guides/`,
 - dodano dokumenty szablonowe w `docs/templates/`,
 - sprawdzono poprawność linków między dokumentami,
-- potwierdzono ponownie brak istniejących konfiguracji build/test/lint do uruchomienia.
+- potwierdzono ponownie brak istniejących konfiguracji build/test/lint do uruchomienia,
 - przygotowano warstwę wariantów budowanych według celu projektu,
 - dodano meta-szablon wspólny dla wariantów celu,
 - dodano przegląd wariantów celu projektu,
 - dodano cztery szczegółowe warianty: strona firmowa, web game, landing / portfolio / strona osobista, web app / SaaS MVP,
-- zsynchronizowano README i przewodniki z nową warstwą wariantów celu.
+- zsynchronizowano README i przewodniki z nową warstwą wariantów celu,
+- doprecyzowano w wariantach celu: quick start, pierwsze pliki do edycji oraz prostsze mapy startowe.
 
 ### W toku
-- końcowe domknięcie etapu wariantów celu i przygotowanie gruntu pod dalszą rozbudowę.
+- końcowe domknięcie etapu wariantów celu i przygotowanie gruntu pod dalszą rozbudowę stackową albo sekcyjną.
 
 ### Jeszcze niegotowe
 - ewentualne dalsze warianty tematyczne lub stackowe dopięte pod każdy wariant celu,
@@ -34,9 +35,9 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 
 ## Następne małe kroki
 
-1. zdecydować, czy następny mały etap rozwija jeszcze warianty celu, czy przechodzi już do warstwy stackowej pod wybrane warianty,
-2. jeśli pozostajemy przy wariantach celu, rozwinąć dokładne listy docelowych plików roboczych i dokumentów pomocniczych dla każdego z nich,
-3. jeśli wchodzimy w stacki, przygotować osobny plan wariantów technologicznych pod wybrane cele,
+1. zdecydować, czy następny mały etap przechodzi już do warstwy stackowej, czy jeszcze rozwija szablony README pod obecne warianty,
+2. jeśli wchodzimy w stacki, przygotować osobny plan wariantów technologicznych pod wybrane cele,
+3. jeśli zostajemy przy obecnej warstwie, rozpisać mocniejsze sekcje README dla każdego wariantu,
 4. utrzymać aktualność statusu i handoffu przy każdym kolejnym kroku.
 
 ## Decyzje podjęte
@@ -68,7 +69,7 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 
 - jak szeroki powinien być katalog szablonów bez wchodzenia jeszcze w stack-specyficzne szczegóły,
 - jak mocno rozdzielać instrukcje dla człowieka i dla AI, żeby nie dublować treści,
-- jak szczegółowe mają być docelowe mapy plików dla wariantów celu przed wejściem w konkretny stack.
+- jak szczegółowe mają być gotowe sekcje README dla wariantów celu przed wejściem w konkretny stack.
 
 ## Zależności
 

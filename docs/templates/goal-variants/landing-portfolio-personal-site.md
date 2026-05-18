@@ -35,6 +35,13 @@ W tym wariancie najwyższy priorytet mają:
 - prosta publikacja,
 - łatwość personalizacji.
 
+## Quick start w 4 ruchach
+
+1. przeczytaj README,
+2. podmień bio, projekty i linki kontaktowe,
+3. sprawdź gdzie są obrazy i ikony,
+4. dopisz prosty deploy flow.
+
 ## Obowiązkowe sekcje README
 
 - czym jest projekt,
@@ -100,6 +107,13 @@ W tym wariancie najwyższy priorytet mają:
 - `docs/project/documentation-map.md`
 - dokument sekcji strony albo równoważna sekcja w README,
 - checklista publikacji albo prosta instrukcja deployu.
+
+## Co edytować najpierw
+
+- `README.md` — czym jest strona i jak ją odpalić,
+- dokument sekcji strony albo sekcję „co zmienić najpierw”,
+- pliki treści w `content/bio/`, `content/projects/` i `content/contact/`,
+- prostą instrukcję publikacji.
 
 ## Pliki opcjonalne
 

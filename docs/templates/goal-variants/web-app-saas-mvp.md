@@ -35,6 +35,13 @@ W tym wariancie najwyższy priorytet mają:
 - podział między dokumentacją produktu i dokumentacją techniczną,
 - solidny workflow AI i handoff.
 
+## Quick start w 4 ruchach
+
+1. przeczytaj README i zakres MVP,
+2. sprawdź gdzie opisane są env i konfiguracja,
+3. uzupełnij status funkcji,
+4. dopisz prosty flow deploymentu albo release.
+
 ## Obowiązkowe sekcje README
 
 - problem i wartość produktu,
@@ -109,6 +116,13 @@ W tym wariancie najwyższy priorytet mają:
 - dokument env / konfiguracji,
 - dokument statusu funkcji,
 - dokument deploymentu albo wyraźna sekcja deployu w README.
+
+## Co edytować najpierw
+
+- `README.md` — problem, zakres MVP i lokalny start,
+- dokument `mvp-scope.md` albo równoważny opis scope,
+- dokument env / konfiguracji,
+- status funkcji i krótki flow deploymentu.
 
 ## Pliki opcjonalne
 

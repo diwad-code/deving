@@ -30,7 +30,8 @@ Warianty celu mają pomagać rozbrajać te problemy przez:
 - wyraźniejsze README,
 - bardziej sensowną strukturę katalogów,
 - osobne instrukcje publikacji,
-- lepszą współpracę z AI i handoffem.
+- lepszą współpracę z AI i handoffem,
+- prostą odpowiedź na pytanie: „co mam edytować najpierw?”.
 
 ## Aktualny zestaw wariantów
 
@@ -115,6 +116,7 @@ Każdy wariant powinien finalnie dostarczać:
 - quick start,
 - listę plików obowiązkowych,
 - listę plików opcjonalnych,
+- listę pierwszych rzeczy do edycji,
 - strukturę README,
 - guidance deploymentu,
 - guidance pracy z AI,

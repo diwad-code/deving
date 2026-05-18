@@ -35,6 +35,13 @@ W tym wariancie najwyższy priorytet mają:
 - rozdzielenie eksperymentów od stabilnych elementów,
 - dobry handoff przy szybkich iteracjach.
 
+## Quick start w 4 ruchach
+
+1. przeczytaj README i opis core loop,
+2. sprawdź gdzie jest logika gry, a gdzie assety,
+3. opisz najważniejszą mechanikę i sterowanie,
+4. dopisz prostą checklistę builda albo playtestu.
+
 ## Obowiązkowe sekcje README
 
 - pitch gry,
@@ -116,6 +123,13 @@ W tym wariancie najwyższy priorytet mają:
 - dokument core loop albo mechanik,
 - dokument mapy assetów,
 - dokument buildów albo wyraźna sekcja release/build w README.
+
+## Co edytować najpierw
+
+- `README.md` — pitch gry, sterowanie i sposób uruchomienia,
+- dokument `game-loop.md` albo równoważny opis mechanik,
+- dokument mapy assetów,
+- status mechanik albo prostą checklistę build / playtest.
 
 ## Pliki opcjonalne
 

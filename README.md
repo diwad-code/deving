@@ -110,6 +110,7 @@ Każdy wariant opisuje:
 - dla kogo jest,
 - jak powinien wyglądać quick start,
 - jakie pliki i katalogi są potrzebne,
+- co edytować najpierw,
 - jakie sekcje README są obowiązkowe,
 - jak planować deployment,
 - jak pracować z AI bez zgadywania.
