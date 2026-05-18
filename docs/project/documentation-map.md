@@ -14,23 +14,30 @@ Ten dokument opisuje docelową strukturę dokumentacji w repozytorium `deving` o
 ```text
 /
 ├── README.md
-└── docs/
-    ├── guides/
-    │   ├── getting-started.md
-    │   ├── choose-your-path.md
-    │   ├── customization-guide.md
-    │   ├── documentation-workflow.md
-    │   └── ai-agent-guide.md
+ └── docs/
+     ├── guides/
+     │   ├── getting-started.md
+     │   ├── choose-your-path.md
+     │   ├── customization-guide.md
+     │   ├── documentation-workflow.md
+     │   └── ai-agent-guide.md
     ├── notes/
     │   └── .gitkeep
-    ├── project/
-    │   ├── documentation-map.md
-    │   ├── source-of-truth.md
-    │   ├── project-status.md
-    │   └── agent-handoff.md
-    └── templates/
-        ├── template-philosophy.md
-        └── content-catalog.md
+     ├── project/
+     │   ├── documentation-map.md
+     │   ├── source-of-truth.md
+     │   ├── project-status.md
+     │   └── agent-handoff.md
+     └── templates/
+         ├── template-philosophy.md
+         ├── content-catalog.md
+         ├── goal-variant-meta-template.md
+         ├── goal-variants-overview.md
+         └── goal-variants/
+             ├── company-website.md
+             ├── web-game.md
+             ├── landing-portfolio-personal-site.md
+             └── web-app-saas-mvp.md
 ```
 
 ## Role dokumentów
@@ -114,6 +121,22 @@ Ten dokument opisuje docelową strukturę dokumentacji w repozytorium `deving` o
 - katalog elementów, które można umieszczać w README i instrukcjach,
 - opis skąd bierze się treść danych sekcji,
 - pomoc przy rozbudowie kolejnych szablonów.
+
+#### `/docs/templates/goal-variant-meta-template.md`
+- wspólny model dla wariantów budowanych według celu projektu,
+- lista sekcji obowiązkowych dla każdego wariantu,
+- reguły odróżniania wariantów i oceny ich jakości.
+
+#### `/docs/templates/goal-variants-overview.md`
+- przegląd wariantów budowanych według celu projektu,
+- uzasadnienie, dlaczego ten kierunek jest teraz priorytetowy,
+- punkt startowy do wyboru właściwego wariantu.
+
+#### `/docs/templates/goal-variants/`
+- katalog szczegółowych wariantów celu projektu,
+- opis dla kogo dany wariant jest,
+- docelowe mapy plików i katalogów,
+- guidance README, deploymentu, AI i redukcji.
 
 ## Zasady rozbudowy mapy
 

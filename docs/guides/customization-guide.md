@@ -89,6 +89,27 @@ Jeśli naprawdę chcesz uprościć ten obszar, najpierw wprowadź alternatywny m
 - traktuj obecne dokumenty jako warstwę meta,
 - dopiero później dodawaj warianty technologiczne.
 
+## Najpierw wybierz wariant celu
+
+Przed większym cięciem repo warto najpierw określić, **co chcesz budować**. Na obecnym etapie repo rozwija warianty według rodzaju celu projektu.
+
+Punkt startowy:
+
+- `/docs/templates/goal-variants-overview.md`
+
+Wspólny model wariantów:
+
+- `/docs/templates/goal-variant-meta-template.md`
+
+Aktualne warianty:
+
+- strona firmowa,
+- gra w formie aplikacji webowej,
+- landing / portfolio / strona osobista,
+- web app / SaaS MVP.
+
+To pomaga ciąć repo nie „na ślepo”, tylko według logiki konkretnego zastosowania.
+
 ## Bezpieczna kolejność redukcji
 
 1. usuń tylko to, co jest ewidentnie poza zakresem projektu,

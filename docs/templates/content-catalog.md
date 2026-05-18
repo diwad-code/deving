@@ -64,6 +64,18 @@ Ten dokument zbiera typy treści, które można umieszczać w repozytorium takim
 **Po co istnieje:** żeby uzasadnić, dlaczego repo wygląda szerzej niż standardowy minimalny starter.  
 **Skąd bierze się treść:** z przyjętych założeń projektowych.
 
+### Meta-szablon wariantu celu
+**Po co istnieje:** żeby wszystkie warianty budowane według celu projektu miały wspólny rdzeń i były porównywalne.  
+**Skąd bierze się treść:** z analizy typowych problemów początkujących, pracy z AI i zasad działania repo.
+
+### Przegląd wariantów celu
+**Po co istnieje:** żeby użytkownik mógł wybrać wariant odpowiadający temu, co chce zbudować.  
+**Skąd bierze się treść:** z analizy typowych celów projektowych i ich różnic organizacyjnych.
+
+### Dokument wariantu celu
+**Po co istnieje:** żeby opisać konkretny typ projektu, jego README, strukturę katalogów, workflow AI i zasady redukcji.  
+**Skąd bierze się treść:** z wymagań konkretnego rodzaju projektu oraz z obserwacji, czego potrzebują początkujący na starcie.
+
 ## Jak używać tego katalogu
 
 Używaj tego dokumentu, gdy:
@@ -72,6 +84,7 @@ Używaj tego dokumentu, gdy:
 - dodajesz nowy przewodnik,
 - zastanawiasz się, czy jakaś sekcja ma sens,
 - chcesz wiedzieć, skąd powinna brać się treść dokumentu,
+- budujesz warianty według celu projektu,
 - budujesz późniejsze warianty np. pod konkretne stacki.
 
 ## Zasada jakości

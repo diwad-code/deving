@@ -8,6 +8,8 @@ Ten dokument ma pozwolić kolejnej osobie lub kolejnemu agentowi wejść do prac
 
 Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej dokumentacji. Główna warstwa dokumentacyjna została już zbudowana, zsynchronizowana i sprawdzona pod kątem podstawowej spójności linków.
 
+W kolejnym kroku repo dostało też pierwszą warstwę **wariantów budowanych według celu projektu** wraz ze wspólnym meta-szablonem i czterema szczegółowymi wariantami.
+
 ## Co już powstało
 
 - `/docs/project/documentation-map.md`
@@ -21,6 +23,12 @@ Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej do
 - `/docs/guides/ai-agent-guide.md`
 - `/docs/templates/template-philosophy.md`
 - `/docs/templates/content-catalog.md`
+- `/docs/templates/goal-variant-meta-template.md`
+- `/docs/templates/goal-variants-overview.md`
+- `/docs/templates/goal-variants/company-website.md`
+- `/docs/templates/goal-variants/web-game.md`
+- `/docs/templates/goal-variants/landing-portfolio-personal-site.md`
+- `/docs/templates/goal-variants/web-app-saas-mvp.md`
 - rozbudowany `/README.md`
 
 ## Co to daje
@@ -30,20 +38,23 @@ Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej do
 - istnieje centralny status projektu,
 - istnieje bogaty punkt wejściowy w README,
 - są przygotowane ścieżki użytkownika i instrukcje dostosowania,
+- jest przygotowany wspólny model wariantów celu projektu,
+- są opisane cztery konkretne warianty celu projektu,
 - potwierdzono brak istniejących narzędzi build/test/lint w repo,
 - jest punkt startowy do dalszej, uporządkowanej rozbudowy.
 
 ## Najbliższy następny krok
 
-Wybrać kolejny mały kierunek rozbudowy: albo dalsze wzmacnianie meta-szablonu, albo przygotowanie planu wariantów stackowych.
+Wybrać kolejny mały kierunek rozbudowy: albo doprecyzowanie docelowych plików roboczych dla wariantów celu, albo przygotowanie planu wariantów stackowych pod wybrane cele.
 
 ## Po tym kroku
 
 Po tym kroku można przejść do jednego z kolejnych małych etapów:
 
 1. dopracowanie jeszcze bogatszych szablonów sekcji README,
-2. przygotowanie wariantów pod konkretne stacki,
-3. rozwinięcie materiałów pod „stronę projektu” lub landing dokumentacyjny.
+2. doprecyzowanie katalogów i dokumentów roboczych dla poszczególnych wariantów celu,
+3. przygotowanie wariantów pod konkretne stacki,
+4. rozwinięcie materiałów pod „stronę projektu” lub landing dokumentacyjny.
 
 ## Czego pilnować
 
@@ -51,13 +62,15 @@ Po tym kroku można przejść do jednego z kolejnych małych etapów:
 - nie pisać tak, jakby istniał kod produktu, skoro repo jest obecnie dokumentacyjnym szkieletem,
 - po każdej zmianie aktualizować ten plik oraz `project-status.md`,
 - linkować tylko do dokumentów, które naprawdę już istnieją,
-- nie rozjechać obecnej logiki źródeł prawdy przy kolejnych rozszerzeniach.
+- nie rozjechać obecnej logiki źródeł prawdy przy kolejnych rozszerzeniach,
+- pilnować, aby warianty celu korzystały ze wspólnego meta-modelu, a nie żyły jako osobne, niespójne wyspy.
 
 ## Niepewności
 
 - brak decyzji, czy kolejne etapy mają wejść już w warianty stackowe,
 - brak decyzji o docelowym języku pełnej dokumentacji,
-- brak decyzji, czy następny etap ma wzmacniać README, czy budować już osobne rozszerzenia.
+- brak decyzji, czy następny etap ma wzmacniać README, czy budować już osobne rozszerzenia,
+- brak decyzji, jak głęboko opisać pliki techniczne każdego wariantu przed wejściem w stacki.
 
 ## Minimalny pakiet plików do przeczytania na wejściu
 
@@ -68,6 +81,8 @@ Po tym kroku można przejść do jednego z kolejnych małych etapów:
 5. `/docs/project/agent-handoff.md`
 6. `/docs/guides/choose-your-path.md`
 7. `/docs/guides/customization-guide.md`
+8. `/docs/templates/goal-variants-overview.md`
+9. `/docs/templates/goal-variant-meta-template.md`
 
 ## Jeśli kontynuujesz pracę
 
@@ -76,4 +91,5 @@ Po tym kroku można przejść do jednego z kolejnych małych etapów:
 3. zaktualizuj `project-status.md`,
 4. zaktualizuj ten handoff,
 5. sprawdź zgodność linków i mapy dokumentacji,
-6. dopiero potem przejdź do następnego kroku.
+6. sprawdź, czy nowe lub zmienione warianty celu nadal są zgodne z meta-szablonem,
+7. dopiero potem przejdź do następnego kroku.

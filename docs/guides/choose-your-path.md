@@ -127,3 +127,22 @@ Jeśli nie jesteś pewien, którą ścieżkę wybrać:
 - nie usuwaj niczego zbyt wcześnie,
 - potraktuj repo jako zestaw klocków,
 - tnij dopiero po zrozumieniu zależności między dokumentami.
+
+## Dodatkowy wybór: ścieżka według celu projektu
+
+Jeśli wiesz już, **co chcesz zbudować**, skorzystaj też z wariantów według rodzaju celu projektu:
+
+- `/docs/templates/goal-variants-overview.md`
+
+To jest obecnie najlepszy punkt wejścia, jeśli myślisz kategorią:
+- strona firmowa,
+- gra jako aplikacja webowa,
+- landing / portfolio / strona osobista,
+- web app / SaaS MVP.
+
+Warianty celu pomagają dobrać:
+- strukturę README,
+- strukturę katalogów,
+- zakres dokumentów pomocniczych,
+- deployment guidance,
+- workflow pracy z AI.

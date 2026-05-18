@@ -51,6 +51,9 @@ To repo może być użyteczne, jeśli:
 ### Szablony i katalog treści
 - `/docs/templates/template-philosophy.md` — filozofia „szablonu maksymalnego”,
 - `/docs/templates/content-catalog.md` — katalog typów treści, które można rozwijać dalej.
+- `/docs/templates/goal-variant-meta-template.md` — wspólny model wariantów budowanych według celu projektu,
+- `/docs/templates/goal-variants-overview.md` — przegląd wariantów celu projektu,
+- `/docs/templates/goal-variants/` — szczegółowe warianty m.in. dla strony firmowej, web game, landingu i SaaS MVP.
 
 ### Notatki robocze
 - `/docs/notes/` — miejsce pomocnicze na materiały tymczasowe, które nie powinny zastępować dokumentów źródłowych.
@@ -65,8 +68,9 @@ To repo może być użyteczne, jeśli:
 ### Jeśli chcesz zacząć budować na tym własny projekt
 1. Przeczytaj `/docs/guides/getting-started.md`.
 2. Sprawdź `/docs/guides/customization-guide.md`.
-3. Zobacz, które sekcje zachować, a które usunąć.
-4. Traktuj `project-status.md` jako punkt kontroli postępu.
+3. Sprawdź `/docs/templates/goal-variants-overview.md`, jeśli wiesz już jaki typ projektu chcesz budować.
+4. Zobacz, które sekcje zachować, a które usunąć.
+5. Traktuj `project-status.md` jako punkt kontroli postępu.
 
 ### Jeśli przejmujesz pracę po innym agencie
 1. Zacznij od `/docs/project/agent-handoff.md`.
@@ -82,6 +86,33 @@ To repo może być użyteczne, jeśli:
 | Budowa porządnego projektu | `/docs/guides/choose-your-path.md` | dopasowanie struktury do celu |
 | Uporządkowanie istniejącego repo | `/docs/templates/content-catalog.md` | wybór brakujących elementów |
 | Kontynuacja przez AI/agenta | `/docs/project/agent-handoff.md` | bieżący stan i następny krok |
+
+## Warianty według celu projektu
+
+Aktualnie repo rozwija dodatkową warstwę: **warianty według rodzaju celu projektu**. To ma pomóc osobom zaczynającym od pytania:
+
+**„Co chcę zbudować?”**
+
+Zamiast od razu pytać o framework albo stack.
+
+Punkt wejścia:
+
+- `/docs/templates/goal-variants-overview.md`
+
+Aktualne warianty:
+
+- strona firmowa,
+- gra w formie aplikacji webowej,
+- landing / portfolio / strona osobista,
+- web app / SaaS MVP.
+
+Każdy wariant opisuje:
+- dla kogo jest,
+- jak powinien wyglądać quick start,
+- jakie pliki i katalogi są potrzebne,
+- jakie sekcje README są obowiązkowe,
+- jak planować deployment,
+- jak pracować z AI bez zgadywania.
 
 ## Jak korzystać z repo jako bogatego szablonu
 
@@ -116,6 +147,7 @@ Obecnie repo:
 
 - ma już podstawową architekturę dokumentacji projektowej,
 - buduje bogaty zestaw przewodników i opisów,
+- ma pierwszy model wariantów budowanych według celu projektu,
 - nie zawiera jeszcze kodu produktu ani skonfigurowanego stacku,
 - jest przygotowywane jako solidna baza pod dalsze warianty i rozszerzenia.
 
@@ -165,3 +197,5 @@ Od `/docs/project/agent-handoff.md`.
 - [Przewodnik AI/agenta](/docs/guides/ai-agent-guide.md)
 - [Filozofia szablonu](/docs/templates/template-philosophy.md)
 - [Katalog treści](/docs/templates/content-catalog.md)
+- [Meta-szablon wariantu celu](/docs/templates/goal-variant-meta-template.md)
+- [Przegląd wariantów celu](/docs/templates/goal-variants-overview.md)
