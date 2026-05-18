@@ -6,7 +6,7 @@ Ten dokument ma pozwolić kolejnej osobie lub kolejnemu agentowi wejść do prac
 
 ## Aktualny stan
 
-Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej dokumentacji. Główna warstwa dokumentacyjna została już zbudowana i zsynchronizowana na poziomie podstawowym.
+Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej dokumentacji. Główna warstwa dokumentacyjna została już zbudowana, zsynchronizowana i sprawdzona pod kątem podstawowej spójności linków.
 
 ## Co już powstało
 
@@ -30,11 +30,12 @@ Repozytorium było szkieletem z prawie pustym `README.md` i bez merytorycznej do
 - istnieje centralny status projektu,
 - istnieje bogaty punkt wejściowy w README,
 - są przygotowane ścieżki użytkownika i instrukcje dostosowania,
+- potwierdzono brak istniejących narzędzi build/test/lint w repo,
 - jest punkt startowy do dalszej, uporządkowanej rozbudowy.
 
 ## Najbliższy następny krok
 
-Wykonać końcowy przegląd spójności między README, przewodnikami, statusem projektu i handoffem oraz przygotować kolejny mały kierunek rozbudowy.
+Wybrać kolejny mały kierunek rozbudowy: albo dalsze wzmacnianie meta-szablonu, albo przygotowanie planu wariantów stackowych.
 
 ## Po tym kroku
 

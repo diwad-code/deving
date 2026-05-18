@@ -15,11 +15,12 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 - utworzono dokument handoff dla kolejnego czatu/agenta,
 - rozbudowano główny `README.md`,
 - dodano przewodniki użytkowe w `docs/guides/`,
-- dodano dokumenty szablonowe w `docs/templates/`.
+- dodano dokumenty szablonowe w `docs/templates/`,
+- sprawdzono poprawność linków między dokumentami,
+- potwierdzono ponownie brak istniejących konfiguracji build/test/lint do uruchomienia.
 
 ### W toku
-- synchronizacja wszystkich dokumentów po rozbudowie głównej struktury,
-- końcowy przegląd spójności treści i linkowania.
+- końcowe domknięcie bieżącego etapu i przygotowanie gruntu pod następne rozszerzenia.
 
 ### Jeszcze niegotowe
 - ewentualne dalsze warianty tematyczne lub stackowe,
@@ -28,11 +29,10 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 
 ## Następne małe kroki
 
-1. utworzyć `agent-handoff.md`,
-2. sprawdzić spójność README, przewodników i dokumentów projektowych,
-3. potwierdzić, że linkowanie między plikami odpowiada realnej strukturze,
-4. domknąć aktualizację handoffu pod kolejny krok,
-5. przygotować grunt pod dalszą rozbudowę treści albo warianty stackowe.
+1. zdecydować, czy następny mały etap dotyczy wariantów stackowych czy dalszego wzmacniania meta-szablonu,
+2. jeśli pozostajemy neutralni technologicznie, rozwinąć jeszcze katalog gotowych sekcji i przykładów użycia,
+3. jeśli wchodzimy w stacki, przygotować osobny plan dla wariantów Python/Node/Go,
+4. utrzymać aktualność statusu i handoffu przy każdym kolejnym kroku.
 
 ## Decyzje podjęte
 
@@ -72,4 +72,5 @@ Zbudować bardzo mocną, bogatą warstwę dokumentacyjną dla repozytorium `devi
 
 - nie znaleziono plików konfiguracyjnych sugerujących istniejący build, testy lub linting,
 - obecnie zmiany dotyczą dokumentacji i struktury plików Markdown,
-- brak istniejących poleceń do uruchomienia przed wdrożeniem dokumentacji.
+- brak istniejących poleceń do uruchomienia przed wdrożeniem dokumentacji,
+- sprawdzono ręcznie poprawność linków absolutnych w plikach Markdown — wszystkie odwołania wskazują istniejące pliki.

@@ -21,6 +21,8 @@ Ten dokument opisuje docelową strukturę dokumentacji w repozytorium `deving` o
     │   ├── customization-guide.md
     │   ├── documentation-workflow.md
     │   └── ai-agent-guide.md
+    ├── notes/
+    │   └── .gitkeep
     ├── project/
     │   ├── documentation-map.md
     │   ├── source-of-truth.md
@@ -65,6 +67,14 @@ Ten dokument opisuje docelową strukturę dokumentacji w repozytorium `deving` o
 - opis aktualnej sytuacji roboczej,
 - najbliższy kolejny krok,
 - lista miejsc wymagających uwagi.
+
+### Miejsce na notatki robocze
+
+#### `/docs/notes/`
+- katalog rezerwowy na notatki pomocnicze,
+- nie jest głównym źródłem prawdy,
+- powinien zawierać tylko materiały tymczasowe albo pomocnicze,
+- jeśli jakaś notatka staje się ważna projektowo, należy przenieść jej sens do dokumentów z `docs/project/` lub `docs/guides/`.
 
 ### Dokumenty użytkowe
 

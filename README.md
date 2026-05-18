@@ -52,6 +52,9 @@ To repo może być użyteczne, jeśli:
 - `/docs/templates/template-philosophy.md` — filozofia „szablonu maksymalnego”,
 - `/docs/templates/content-catalog.md` — katalog typów treści, które można rozwijać dalej.
 
+### Notatki robocze
+- `/docs/notes/` — miejsce pomocnicze na materiały tymczasowe, które nie powinny zastępować dokumentów źródłowych.
+
 ## Szybki start
 
 ### Jeśli chcesz tylko się zorientować
